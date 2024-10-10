@@ -39,10 +39,9 @@ class Connect():
 
 if __name__ == '__main__':
     IP = input("Input server IP\n")
-    # IP = "54.224.0.81"
     # IP = socket.gethostbyname(socket.gethostname())
     # file_loc = input("Input image's address\n")
-    file_loc = '../resourses/mnist_complete_zero.png'
+    file_loc = '../resourses/mnist_first_digit.png'
 
     # Change the IP and Port to match the server
     server = Connect(ip=IP,
